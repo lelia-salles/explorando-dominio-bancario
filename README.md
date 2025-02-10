@@ -1,6 +1,6 @@
 # Explorando um Domínio Bancário
 Projeto feito para o Santander DEV Week
-API RESTful com Spring Boot 3, Java 17 e Railway
+API RESTful com Gradle, Spring Boot 3, Java 17 e Railway
 
 ## Diagrama de Classes
 
