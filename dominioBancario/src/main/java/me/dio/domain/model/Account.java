@@ -8,7 +8,7 @@ import jakarta.persistenceGenerationType;
 @Entity(name="tb_user")
 public class User {
 
-
+    @Id
     private Long id;
     private String name;
     private  Account account;
