@@ -1,18 +1,27 @@
-import java.util.List;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistenceGeneratedValue;
-import jakarta.persistenceGenerationType;
 
-@Entity(name="tb_user")
+package me.dio.domain.model;
+import java.util.List;
+import jakarta.persistence.*;
+
+@Entity(name = "tb_user")
 public class User {
 
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String name;
-    private  Account account;
+
+    @OneToOne(cascade = CascadeType.ALL) //propagação de relacionamento entre entidades
+    private Account account;
+
+    @OneToOne(cascade = CascadeType.ALL)
     private Card card;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Feature> features;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<News> news;
 
     public Long getId() {
@@ -62,4 +71,5 @@ public class User {
     public void setNews(List<News> news) {
         this.news = news;
     }
+
 }
