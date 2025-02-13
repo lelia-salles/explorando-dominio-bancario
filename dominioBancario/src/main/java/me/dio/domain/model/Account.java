@@ -9,7 +9,17 @@ import jakarta.persistenceGenerationType;
 public class User {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    private String agency;
+
+    @Column(precisoon = 2, scale = 13) // 12 inteiros e 2 decimais de precisão
+    private BigDecimal balance;
+    private BigDecimal limit;
+
+
+    
     private String name;
     private  Account account;
     private Card card;
