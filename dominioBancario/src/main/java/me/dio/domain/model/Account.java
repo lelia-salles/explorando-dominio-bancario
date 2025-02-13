@@ -18,7 +18,7 @@ public class User {
     private BigDecimal balance;
 
     @Column(precison = 2, scale = 13)
-    private BigDecimal limit;
+    private BigDecimal additional_limit; // limit pode ser palavra reservada
 
 
     
