@@ -1,4 +1,4 @@
-// Classe abstrata que contém elementos que serão herdados pelas classes Featrue e News
+// Classe abstrata que contém elementos que serão herdados pelas classes Feature e News - evita repetição de código
 
 package me.dio.domain.model;
 
