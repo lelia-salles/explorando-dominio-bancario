@@ -14,10 +14,10 @@ public class User {
 
     private String agency;
 
-    @Column(precison = 2, scale = 13) // 12 inteiros e 2 decimais de precisão
+    @Column(precison = 13, scale = 2) // 12 inteiros e 2 decimais de precisão
     private BigDecimal balance;
-
-    @Column(precison = 2, scale = 13)
+    
+    @Column(precison = 13, scale = 2)
     private BigDecimal additional_limit; // limit pode ser palavra reservada
 
 
