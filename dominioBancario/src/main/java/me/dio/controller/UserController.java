@@ -45,10 +45,10 @@ public class UserController {
     @PostMapping
     public ResponseEntity<User> create(@RequestBody User userToCreate) {
         var userCreated = userService.create(userToCreate);
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest()
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest()//localização do recurso
                 .path("/{id}")
-                .buildAndExpand(userCreated.getId())
-                .toUri();
+                .buildAndExpand(userCreated.getId()) // subsitui o valor específico do id
+                .toUri(); 
         return ResponseEntity.created(location).body(userCreated);
     }
 }
