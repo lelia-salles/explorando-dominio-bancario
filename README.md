@@ -55,5 +55,6 @@ O protótipo foi fornecido pelo professor Venilton Falvo Jr >> [Figma](https://w
     - Acessar Configurações de execução em configurações de variáveis de ambiente e inserir:  **SPRING_PROFILES_ACTIVE=prod**
     - No Railway ir em Project Settings > Shared Variables > production e inserir a variável **SPRING_PROFILES_ACTIVE=prod** 
     - Essa variável de produção precisa ser configurada na IDE da mesma forma que no ambiente de testes
-    - É necessário incluir todas as variáveis de ambiente de produção no Railway. Essas variáveis são encontradas em configurações > Environment Varibles do Application Prod 
+    - É necessário incluir todas as variáveis de ambiente de produção no Railway. Essas variáveis são encontradas em configurações > Environment Varibles do Application Prod
+    - criar a variável adicional para a porta PORT = 8080 
 
