@@ -1,1 +1,4 @@
+Arquivo para que o Railway saiba que este é um aplicativo web e que execute o comando abaixo que é o arquivo jar que o gradle gera ao fazer o build
+No caso abaixo o caminho é um exemplo do professor e não se aplica aqui. Haverá a necessidade de copiar o caminho na hora de buildar o projeto na IDE.
+
 web: java -jar build/libs/santander-dev-week-2023-0.0.1-SNAPSHOT.jar
