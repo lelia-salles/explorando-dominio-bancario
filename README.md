@@ -49,3 +49,5 @@ O protótipo foi fornecido pelo professor Venilton Falvo Jr >> [Figma](https://w
 - Criar variável de ambiente no IntelliJ devido a configuração *.application-dev*, caso a configuração fosse sem *-dev* não haveria necessidade de configuração de variável de ambiente.
     - Acessar Configurações de execução em configurações de variáveis de ambiente e inserir:  **SPRING_PROFILES_ACTIVE=dev**
     - Acessar localhost/h2-console
+
+
