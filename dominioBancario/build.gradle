@@ -31,6 +31,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	
 	// OpenAPI (Swagger para documentação) https://github.com/springdoc/springdoc-openapi
+	//acessar em https://localhost:8080/swagger-ui.html
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 
 	// Banco de dados em memória (usado para testes ou desenvolvimento)
