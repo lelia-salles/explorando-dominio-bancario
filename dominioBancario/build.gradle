@@ -18,9 +18,30 @@ repositories {
 }
 
 dependencies {
+	//starter básico
 	implementation 'org.springframework.boot:spring-boot-starter'
+	
+	//dpendências para testes
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	
+	//persistência de dados
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// Starter para Web (inclui Tomcat e Jackson por padrão)
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	
+	// OpenAPI (Swagger para documentação) https://github.com/springdoc/springdoc-openapi
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+
+	// Banco de dados em memória (usado para testes ou desenvolvimento)
+	runtimeOnly 'com.h2database:h2'
+
+	 // Driver do PostgreSQL (usado em produção ou desenvolvimento)
+	runtimeOnly 'org.postgresql:postgresql'
+
+	 // (Opcional) Lombok para reduzir boilerplate
+    implementation 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {
