@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;
 
-// O uso de uma classe apenas para implementação é boa prática para não expor a implementação definida na classe UserService 
+// O uso de uma classe apenas para implementação é boa prática para não expor (encapsulamento) a implementação definida na classe UserService 
 @Service
 public class UserServiceImpl implements UserService {
 
