@@ -6,7 +6,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: validate #na primeira vez colocar create, depois colocar validate para apenas acessar ao invés de ficar criando as tabelas toda vez
+      ddl-auto: create #na primeira vez colocar create, depois colocar validate para apenas acessar ao invés de ficar criando as tabelas toda vez
 
    #  para conectar com Railwai abrir arquivos de configuração e execução
    # duplicar o application DEV e renomear para application PRD e customizar as variáveis de ambiente colocando as informações fornecidas pelo Railway
