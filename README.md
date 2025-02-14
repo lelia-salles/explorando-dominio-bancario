@@ -41,6 +41,7 @@ classDiagram
     User "1" *-- "1" Card
     User "1" *-- "N" News
 ```
-Criar variável de ambiente no IntelliJ por conta da configuração application-dev
-Configurações de execução SPRING_PROFILES_ACTIVE=dev
-Acessar localhost/h2-console
+### Teste
+- Criar variável de ambiente no IntelliJ devido a configuração .application-dev, caso a configuração fosse sem -dev o não haveria necessidade de configuração de variável de ambiente.
+    - Acessar Configurações de execução em configurações de variáveis de ambiente e inserir:  **SPRING_PROFILES_ACTIVE=dev**
+    - Acessar localhost/h2-console
