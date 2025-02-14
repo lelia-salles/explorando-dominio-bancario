@@ -42,7 +42,7 @@ classDiagram
     User "1" *-- "N" News
 ```
 ## UX/UI
-[** Figma **](https://www.figma.com/design/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?node-id=0-1&t=z3yWlVnXLn2DUBLd-1)
+[**Figma](https://www.figma.com/design/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?node-id=0-1&t=z3yWlVnXLn2DUBLd-1)
 
 
 ## Teste
