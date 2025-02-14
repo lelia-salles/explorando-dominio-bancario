@@ -50,4 +50,9 @@ O protótipo foi fornecido pelo professor Venilton Falvo Jr >> [Figma](https://w
     - Acessar Configurações de execução em configurações de variáveis de ambiente e inserir:  **SPRING_PROFILES_ACTIVE=dev**
     - Acessar localhost/h2-console
 
+## Produção 
+- Criar variável de ambiente no IntelliJ devido a configuração *.application-prod*
+    - Acessar Configurações de execução em configurações de variáveis de ambiente e inserir:  **SPRING_PROFILES_ACTIVE=prod**
+    - No Railway ir em Project Settings > Shared Variables > production e inserir a variável **SPRING_PROFILES_ACTIVE=prod** 
+Essa variável de produção precisa ser configurada na IDE da mesma forma que no ambiente de testes
 
