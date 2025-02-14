@@ -7,7 +7,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;
 
-// O uso de uma classe apenas para implementação é boa prática para não expor (encapsulamento) a implementação definida na classe UserService 
+/*
+Essa implementação atua como intermediária entre a camada de apresentação (controladores) e a camada de persistência (repositórios). Ela aplica regras de negócio simples, como evitar duplicidades de contas ao criar um usuário, e também delega a persistência ao repositório. A abordagem segue boas práticas como:
+- Separação de responsabilidades.
+- Uso de exceções para lidar com cenários inesperados.
+- Validações antes de interagir com o banco de dados.
+*/ 
 @Service
 public class UserServiceImpl implements UserService {
 
