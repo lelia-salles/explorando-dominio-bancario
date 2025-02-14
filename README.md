@@ -58,5 +58,5 @@ O protótipo foi fornecido pelo professor Venilton Falvo Jr >> [Figma](https://w
     - É necessário incluir todas as variáveis de ambiente de produção no Railway. Essas variáveis são encontradas em configurações > Environment Varibles do Application Prod
     - criar a variável adicional para a porta PORT = 8080 
 
-Além de tornar pública uma API de forma agradével, o Railway funciona como uma pipelinde de CD/CI
+Além de tornar pública uma API de forma agradével, o Railway funciona como uma pipelinde de CD/CI. 
 
