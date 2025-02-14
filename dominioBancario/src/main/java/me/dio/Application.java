@@ -3,6 +3,7 @@ package me.dio.explorando.um.dominio.bancario;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@OpenAPIDefinition(server = {@Server(url = "/", description = "Default Server URL")}) //para contexto do Swagger e corrigir problema de CORS
 @SpringBootApplication
 public class Application {
 
