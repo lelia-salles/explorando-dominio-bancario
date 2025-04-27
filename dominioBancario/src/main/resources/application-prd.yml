@@ -1,10 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    url: postgresql://postgres:nDsikcIeEdscIixOVtnUhKFwQApRzrBO@ballast.proxy.rlwy.net:27671/railway
     username: ${PGUSER}
-    password: ${PGPASSWORD}
+    password: PGPASSWORD=nDsikcIeEdscIixOVtnUhKFwQApRzrBO psql -h ballast.proxy.rlwy.net -U postgres -p 27671 -d railway
   jpa:
-    open-in-view: false
+    open-in-view: true
     hibernate:
       ddl-auto: create #na primeira vez colocar create, depois colocar validate para apenas acessar ao invés de ficar criando as tabelas toda vez
 
