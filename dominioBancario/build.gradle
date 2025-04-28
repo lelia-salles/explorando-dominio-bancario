@@ -47,7 +47,7 @@ dependencies {
 
 //cinfiguração necessária para o Railway (Reference Path)
 tasks.jar {
-	manifest["Main.Class"] = "me.dio.explorando.Application"
+	manifest["Main.Class"] = "me.dio.Application"
 }
 
 tasks.named('test') {
