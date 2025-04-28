@@ -44,10 +44,13 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
 }
 
-//cinfiguração necessária para o Railway (Reference Path)
+//configuração necessária para o Railway (Reference Path)
 tasks.jar {
-	manifest["Main.Class"] = "me.dio.Application"
+	manifest {
+		attributes("Main-Class" to "dominioBancario.me.dio.Application")
+	}
 }
+
 
 tasks.named('test') {
 	useJUnitPlatform()
