@@ -6,11 +6,11 @@
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="PLATFORM" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/explorando-um-dominio-bancario" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/explorando-dominio-bancario" />
         <option name="gradleJvm" value="21" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/explorando-um-dominio-bancario" />
+            <option value="$PROJECT_DIR$/explorando-dominio-bancario" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="true" />
